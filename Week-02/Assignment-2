@@ -1,0 +1,65 @@
+#Assignment: Netflix User Analytics
+#Scenario
+Netflix is an online movie and TV streaming platform with thousands of subscribers. The company
+wants to better understand user behaviour and use Machine Learning to improve customer retention
+and business decisions.
+The management has provided a dataset containing information about 750 users. The dataset includes
+user demographics, viewing habits, subscription details, and spending patterns.
+Your task is to analyze the data and apply Machine Learning techniques to answer key business
+questions.
+
+#Dataset Description
+-------------------------------------------------------------
+| Column              |  Description                        |
+-------------------------------------------------------------
+| UserID              |  Unique user identifier             |
+| Age                 |  User age                           |
+| Gender              |  Male/Female                        |
+| SubscriptionType    |  Basic/Premium/VIP                  |
+| WatchHoursPerWeek   |  Hours watched per week             |
+| DevicesUsed         |  Number of devices used             |
+| FavoriteGenre       |  Action, Comedy, Drama, Sci-Fi, etc.|
+| AdClicks            |  Number of advertisement clicks     |
+| MonthlySpend        |  Monthly spending (₹)               |
+| SubscriptionRenewed |  Yes/No                             |
+-------------------------------------------------------------
+#Tasks
+
+#Part A: Dataset Understanding
+Q1. Load the dataset and display the first five records.
+Q2. Determine the number of rows and columns in the dataset.
+Q3. Display all column names.
+Q4. Identify numerical and categorical features.
+Q5. Check whether the dataset contains missing values.
+
+#Part B: Exploratory Data Analysis
+Q6. Calculate the average age of users.
+Q7. Determine the average watch hours per week.
+Q8. Find the average monthly spending of users.
+Q9. Count the number of users in each subscription category.
+Q10. Determine the percentage of users who renewed their subscriptions.
+
+Part C: Data Preparation
+Q11. Convert categorical features into numerical form.
+Q12. Define the feature set (X) and target variable (y) for subscription renewal prediction.
+Q13. Split the dataset into training and testing sets.
+
+Part D: Decision Tree Classification
+Q14. Train a Decision Tree model to predict whether a user will renew their subscription.
+Q15. Evaluate the model using accuracy.
+Q16. Generate and interpret the confusion matrix.
+
+Part E: K-Nearest Neighbors (KNN)
+Q17. Train a KNN classifier with K = 5.
+Q18. Compare the accuracy of KNN with the Decision Tree model.
+
+Part F: Linear Regression
+Q19. Train a Linear Regression model to predict monthly spending.
+Q20. Predict the monthly spending for a new user and interpret the result.
+
+#Business Reflection Questions
+1. Which factors appear to influence subscription renewal the most?
+2. Why is subscription renewal a classification problem?
+3. Why is monthly spending a regression problem?
+4. Which algorithm performed better for renewal prediction?
+5. How could the platform use these predictions to improve customer retention?
