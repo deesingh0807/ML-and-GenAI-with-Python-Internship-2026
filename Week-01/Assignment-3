@@ -1,0 +1,14 @@
+-> Create a function to print first 10 natural numbers.
+-> Create a function to calculate sum of first N natural numbers.
+-> Create a function to reverse a number.
+-> Create a function to count digits in a number.
+-> Create a function to check palindrome number.
+-> Create a function to generate Fibonacci series.
+-> Calculator Using Functions that contains the following features;
+  - User selects operation 
+  - Program performs calculation 
+  - Display result
+-> Create a text file and store student details.
+-> Read data from a file.
+-> Handle division by zero using exception handling.
+-> Create a Student class with name and marks.
