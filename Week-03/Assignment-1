@@ -1,0 +1,104 @@
+==================================================================================
+Exploratory Data Analysis (EDA) and Machine Learning on Agricultural Yield Dataset
+==================================================================================
+
+---------------------------------
+Part A: Understanding the Dataset
+---------------------------------
+
+  Q1. Dataset Overview
+    Load the dataset and answer the following:
+      - How many rows and columns are present?
+      - What are the names of all columns?
+      - Display the first 10 records.
+
+  Q2. Data Types and Missing Values
+      - Check the data type of each column.
+      - Identify whether any missing values are present.
+      - If missing values exist, mention the affected columns.
+
+  Q3. Descriptive Statistics
+    Generate summary statistics for all numerical features and answer:
+      - Which feature has the highest mean value?
+      - Which feature has the highest standard deviation?
+
+---------------------------------------
+Part B: Exploratory Data Analysis (EDA)
+---------------------------------------
+
+  Q4. Distribution Analysis
+    Create histograms for:
+      - rainfall_mm
+      - temperature_c
+      - fertilizer_kg
+      - yield_ton_per_hectare
+    Write 2–3 observations from each histogram.
+
+  Q5. Crop Type Analysis
+      - Find the number of records for each crop type.
+      - Create a count plot (bar chart) for crop_type.
+      - Which crop appears most frequently?
+
+  Q6. Soil Type Analysis
+      - Find the frequency of each soil type.
+      - Create a count plot for soil_type.
+      - Which soil type is most common?
+
+  Q7. Yield Distribution
+    Create a histogram of yield_ton_per_hectare.
+    Answer:
+      - Is the distribution approximately normal?
+      - Are there any noticeable outliers?
+
+  Q8. Scatter Plot Analysis
+    Create scatter plots of:
+      - rainfall_mm vs yield_ton_per_hectare
+      - fertilizer_kg vs yield_ton_per_hectare
+    Based on the plots:
+      - Which feature appears to have a stronger relationship with yield?
+
+  Q9. Correlation Analysis
+      - Generate a correlation matrix for numerical features.
+      - Create a heatmap.
+      - Identify the top three features most correlated with crop yield.
+
+  Q10. Group-Based Analysis
+    Calculate the average yield for:
+      - Each crop type
+      - Each soil type
+    Which crop and soil type have the highest average yield?
+
+------------------------
+Part C: Data Preparation
+------------------------
+
+  Q11. Feature Encoding
+    The dataset contains categorical variables.
+      - Identify the categorical columns.
+      - Convert them into numerical form using One-Hot Encoding.
+      - Display the first five rows of the transformed dataset.
+
+  Q12. Feature Selection
+    Separate:
+      - Input features (X)
+      - Target variable (y)
+    Specify which column is being used as the target variable.
+
+------------------------
+Part D: Machine Learning
+------------------------
+
+  Q13. Train-Test Split
+    Split the dataset into:
+      - 80% Training Data
+      - 20% Testing Data
+    Display the shape of:
+      - X_train
+      - X_test
+      - y_train
+      - y_test
+
+  Q14. Linear Regression Model
+      - Train a Linear Regression model.
+      - Display the model coefficients and intercept.
+      - Which feature has the highest positive coefficient? 
